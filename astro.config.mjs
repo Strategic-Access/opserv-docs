@@ -11,11 +11,17 @@ export default defineConfig({
 		'./src/tailwind.css',
 	],
     social: {
-      github: 'https://github.com/withastro/starlight'
+      github: 'https://github.com/Strategic-Access/opserv-docs'
     },
     sidebar: [{
       label: 'For Administrators',
       autogenerate: { directory: 'admin' },
+    },{
+      label: 'For Supervisors',
+      autogenerate: { directory: 'supervisor' },
+    },{
+      label: 'For Technicians',
+      autogenerate: { directory: 'technician' },
     }]
   }), tailwind({
 	// Disable the default base styles:

@@ -1,6 +1,6 @@
 ---
 title: 1. Authentication
-description: A guide for admin.
+description: A guide for technician.
 sidebar:
     order: 1
 ---
@@ -26,4 +26,4 @@ sidebar:
 1. Click 3 dot beside username on the top right. Then, click logout link.
 2. After logout, page will be navigated to the login page.
 
-![Logout](../../../assets/admin/auth/opserv-admin-logout.png)
+![Logout](../../../assets/admin/auth/opserv-supervisor-logout.png)

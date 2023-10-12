@@ -12,7 +12,7 @@ hero:
       icon: right-arrow
       variant: primary
     - text: Read the OpServ docs
-      link: https://starlight.astro.build
+      link: /admin/auth
       icon: external
 ---
 
@@ -21,22 +21,17 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 ## Benefits for Stake Holders
 
 <CardGrid stagger>
-	<Card title="For Customers" icon="pencil">
+	<Card title="For Administrators" icon="pencil">
 		<ul>
-			<li>Better user experience as approval can be performed anytime and anywhere around the globe.</li>
-			<li>Eliminates redundancy and hassle to fill in forms.</li>
-			<li>Automated notification system when a form needs to be approved.</li>
+			<li>Centralized panel for manage report related informations.</li>
+			<li>Get detailed report on all services done by technicans.</li>
+			<li>Effectively manage customer, machine, staff and vehicle locations.</li>
+			<li>No more downloading serviced crane pictures from Whatsapp groups.</li>
 		</ul>
-		<a href="/admin/auth">View Admin guide.</a>
+		<br />
+		<a href="/admin/auth">View Administrator guide.</a>
 	</Card>
-	<Card title="For Technicians" icon="add-document">
-		<ul>
-			<li>Less human mistake on form capturing on form verification.</li>
-			<li>Ability to resume form filling where last left off.</li>
-			<li>Single place to see scheduled works.</li>
-		</ul>
-	</Card>
-	<Card title="For Managers" icon="setting">
+	<Card title="For Supervisors" icon="setting">
 		<ul>
 			<li>Streamlined place to assign job to technicians.</li>
 			<li>Centralized record keeping for effective record management.</li>
@@ -44,9 +39,27 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 			<li>Standardized submission format eliminates excess processing at Front Office.</li>
 			<li>Automated overtime calculations.</li>
 		</ul>
+		<br />
+		<a href="/supervisor/auth">View Supervisor guide.</a>
+	</Card>
+	<Card title="For Technicians" icon="add-document">
+		<ul>
+			<li>Less human mistake on form capturing on form verification.</li>
+			<li>Ability to resume form filling where last left off.</li>
+			<li>Single place to see scheduled works.</li>
+		</ul>
+		<br />
+		<a href="/technician/auth">View Technician guide.</a>
+	</Card>
+	<Card title="For Customers" icon="pencil">
+		<ul>
+			<li>Better user experience as approval can be performed anytime and anywhere around the globe.</li>
+			<li>Eliminates redundancy and hassle to fill in forms.</li>
+			<li>Automated notification system when a form needs to be approved.</li>
+		</ul>
 	</Card>
 	<Card title="Accessing Opserv" icon="rocket">
-		To access OpServ, please follow below links:
+		To access OpServ in different environments, please follow below links:
 		<ul>
 			<li><a href="https://app.mstime.com.my">Production</a></li>
 			<li><a href="#">Staging</a></li>
