@@ -4,7 +4,7 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://strategic-access.github.io',
+  site: 'https://docs.mstime.com.my',
   integrations: [starlight({
     title: 'OpServ Docs',
 	customCss: [
