@@ -27,7 +27,7 @@ sidebar:
 8. Click **BACK TO LIST** to go back to the previous page.
 
 :::caution[Need to create emergency work order?]
-Please ask any admin to create ***emergency job number***, before it will be listed in Job Number selection list.
+Please ask any user with administrator permission to create ***Emergency Job Number***. After that, you can select the emergency Job Number from selection list.
 :::
 
 ![Create Work Order](../../../assets/supervisor/workorder/workordercreate.png)
