@@ -8,7 +8,7 @@ sidebar:
 ## User List
 
 1. This module can be accessed by clicking User Management > List Users link on the sidebar.
-2. Fill in keyword in search text area and click **Enter**]** button to filter user list.
+2. Fill in keyword in search text area and click **Enter** button to filter user list.
 3. ✏️ icon is for editing information belong to User in the same row.It will navigate to Edit User page.
 4. 🗑️ icon is for delete information belong to User in the same row.
 5. ↻ icon is for refresh User List.

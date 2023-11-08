@@ -8,6 +8,6 @@ sidebar:
 ## Dashboard
 
 1. There are information of Active Work Order, Closed Work Orders and Rejected Reports.
-2. Click [Active Work Order] link will navigate to Work Order List.
+2. Click **[Active Work Order]** link will navigate to Work Order List.
 
 ![OpServ Dashboard Screen](../../../assets/supervisor/dashboard/dashboard.png)
