@@ -5,6 +5,13 @@ sidebar:
     order: 5
 ---
 
+:::note[Overtime Rate Calculation]
+Overtime rate will only be counted based on below conditions.
+1. PO Number must be assigned to the Job Number.
+2. Work Order status must be **Closed**.
+
+:::
+
 ## My Overtime Record
 
 1. This module can be accessed from the **View My Overtime** on the sidebar.

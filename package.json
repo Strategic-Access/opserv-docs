@@ -10,7 +10,11 @@
     "astro": "astro"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@astrojs/starlight": "^0.13.0",
+=======
+    "@astrojs/starlight": "^0.12.0",
+>>>>>>> 8f32f6416b868fbfb64c37519e994e26b510ebc9
     "@astrojs/starlight-tailwind": "^2.0.0",
     "@astrojs/tailwind": "^5.0.2",
     "astro": "^3.2.3",
